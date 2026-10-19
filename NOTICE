@@ -1,0 +1,33 @@
+Miata NA — Bluetooth / MP3 Head Unit
+Copyright (C) 2026 lodewave
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. See the LICENSE file for the full text.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+----------------------------------------------------------------------------
+Scope and third-party components
+----------------------------------------------------------------------------
+
+The GPL-3.0 license covers the firmware in firmware/.
+
+The hardware design (hardware/) and the enclosure (mechanical/) are licensed
+under the CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0).
+See hardware/LICENSE.
+
+Bundled third-party work, not covered by the licenses above:
+
+- DSEG14 Classic font (firmware/primary_esp32s3/DSEG14Classic_Regular_18.h)
+  by Keshikan, https://www.keshikan.net/fonts.html
+  Licensed under the SIL Open Font License 1.1.
+
+The Arduino libraries used to build the firmware (TFT_eSPI, Adafruit MCP23017,
+Adafruit BusIO, arduino-audio-tools, arduino-libhelix, ESP32-A2DP) are not
+included in this repository and keep their own licenses. Only project-specific
+TFT_eSPI setup files are included (firmware/libraries/), which are the author's
+own work under GPL-3.0.

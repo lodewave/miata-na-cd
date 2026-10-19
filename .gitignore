@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# Local-only: zip backups and editor/OS files (history replaces the backups)
+# ---------------------------------------------------------------------------
+backup/
+archive/
+.vscode/
+.kiro/
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Arduino / build output
+build/
+*.hex
+*.bin
+*.elf
+
+# ---------------------------------------------------------------------------
+# KiCad — schematic only here (no PCB). Ignore backups, auto-saves, locks,
+# caches, and any stray PCB/fab files that shouldn't live in this repo
+# ---------------------------------------------------------------------------
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb
+*.kicad_prl
+_autosave-*
+*.000
+*.bak
+*.lck
+~*.lck
+fp-info-cache
+
+# ---------------------------------------------------------------------------
+# Mechanical / CAD scratch files (keep STL and STEP sources, not these)
+# ---------------------------------------------------------------------------
+*.f3d.lock
+*.FCStd1

@@ -1,0 +1,23 @@
+CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)
+
+SPDX-License-Identifier: CERN-OHL-P-2.0
+
+Copyright (c) 2026 lodewave
+
+The hardware designs in this directory (the KiCad schematic, PCB and related
+files), and the enclosure designs in ../mechanical/, are licensed under the
+CERN Open Hardware Licence Version 2 - Permissive.
+
+You may redistribute and modify this documentation and make products using it
+under the terms of the CERN-OHL-P v2. This documentation is distributed
+WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,
+SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the
+licence for the applicable conditions.
+
+The full licence text is not reproduced here. Download it from:
+  https://ohwr.org/cern_ohl_p_v2.txt
+or read it via the SPDX license list:
+  https://spdx.org/licenses/CERN-OHL-P-2.0.html
+
+To replace this file with the full text, save cern_ohl_p_v2.txt from the link
+above into this directory.
